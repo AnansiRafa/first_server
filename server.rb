@@ -1,8 +1,5 @@
 require 'sinatra'
-get '/' do
-  "Hello world"
-end
 
-get '/sinatra' do
-  "hello Sinatra"
+get '/' do
+  File.open("public/index.html")
 end
