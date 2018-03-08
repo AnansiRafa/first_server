@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  File.open("public/index.html")
+  File.open("public/hello.txt")
 end
